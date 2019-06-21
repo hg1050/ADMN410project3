@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset="utf-8" />
+<title> Durham House of Pets</title>
+<link  href="common.css" rel="stylesheet">   
+</head>
+
+<body>
+
+<header>
+    <article>
+      <div class="logo"><img src="logo.png" alt="image"></div>
+      <nav>
+        <ul>
+           <li><a href="index.html" class="on">Home</a></li>
+           <li><a href="employees.html">Our Team</a></li>
+           <li><a href="products.html">Products</a></li>
+           <li><a href="dogsupplies.html">Dog supplieS</a></li>
+           <li><a href="catsupplies.html">Cat Supplies</a></li>
+           <li><a href="fishsupplie.html">Fish Supplies</a></li>
+           <li><a href="policies.html">Policies</a></li>
+           <li><a href="contact_us.html">Contact us</a></li>
+         </ul>
+      </nav>
+    </article>
+</header>
+
+<div class="banner"><img src="banner.jpg" alt="image"></div>
+
+<div class="title">
+    <h3>HOT PRODUCTS</h3>
+    <img src="t.png" alt="image">
+</div>
+
+<div class="cp">
+   <article>
+       <ul>
+          <li>
+              <a href="dogsupplies.html">
+              <img src="1.png" alt="image">
+              <h3>Dog supplieS</h3>
+              <p>A well-known nutritionist develops healthy and delicious natural foods for pets. The selection of high-quality raw materials, scientific nutritional mix, giving the pet a great palatability.</p>
+              </a>
+          </li>
+          <li>
+              <a href="catsupplies.html">
+              <img src="2.png" alt="image">
+              <h3>Cat Supplies</h3>
+              <p>A well-known nutritionist develops healthy and delicious natural foods for pets. The selection of high-quality raw materials, scientific nutritional mix, giving the pet a great palatability.</p>
+              </a>
+          </li>
+          <li>
+              <a href="fishsupplie.html">
+              <img src="3.png" alt="image">
+              <h3>Fish Supplies</h3>
+              <p>A well-known nutritionist develops healthy and delicious natural foods for pets. The selection of high-quality raw materials, scientific nutritional mix, giving the pet a great palatability.</p>
+              </a>
+          </li>
+       </ul>
+   </article>
+</div>
+
+<div class="about">
+    <article>
+         <h3>About Us</h3>
+         <p>Absorbing the advanced experience of the global industry, and constantly strengthening its research and development strength, with a number of animal nutrition masters and veterinarians as the core, established a large pet food research and development center in Asia, and developed an annual plan for palatability and comprehensive nutrition improvement. The Pet Nutrition Institute, which is centered on well-known scholars at home and abroad, is also in the process of preparation.</p>
+         <p>It also pays attention to the value of consumers: on the one hand, it spares no effort to improve the intrinsic quality of products, approaching or even catching up with international quality; on the other hand, taking advantage of localized production to ensure better prices that more people can afford.</p>
+    </article>
+</div>
+
+<div class="td">
+  <article>
+  
+  <div class="title">
+    <h3>Our Team</h3>
+    <img src="t.png" alt="image">
+</div>
+
+
+ <div id=demo style="overflow:hidden;width:100%;">
+        <table border=0  style="margin-top:40px;">
+          <tr>
+            <td id=demo1>
+                <table width="100%">
+                        <tr>
+                            <td><a href="employees.html">
+                            	<img src="1.jpg"  style="padding-left:10px;" alt="image"></a>
+                            </td>
+                            <td>
+                            	<a href="employees.html"><img src="2.jpg"  style="padding-left:10px;" alt="image"></a>
+                            </td>
+                            <td>
+                            	<a href="employees.html"><img src="3.jpg"  style="padding-left:10px;" alt="image"></a>
+                            </td>
+                            <td>
+                            	<a href="employees.html"><img src="4.jpg" style="padding-left:10px;" alt="image"></a>
+                            </td>
+                            <td>
+                            	<a href="employees.html"><img src="5.jpg"  style="padding-left:10px;" alt="image"></a>
+                            </td>
+                            <td>
+                            	<a href="employees.html"><img src="6.jpg" style="padding-left:10px;" alt="image"></a>
+                            </td>
+                        </tr>
+              </table>
+            </td>
+            <td id=demo2 valign=top></td>
+          </tr>
+        </table>
+  </div>
+  <script>
+        var speed=30
+        demo2.innerHTML=demo1.innerHTML
+        function Marquee(){
+        if(demo2.offsetWidth-demo.scrollLeft<=0)
+            demo.scrollLeft-=demo1.offsetWidth
+        else{
+            demo.scrollLeft++
+            }
+        }
+        var MyMar=setInterval(Marquee,speed)
+        demo.onmouseover=function() {clearInterval(MyMar)}
+        demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+    </script>
+ </article>
+</div>
+
+
+<footer>
+  Copyright © Durham House of Pets. All rights reserved. 
+   <div class="sj">
+     <a href="#"><img src="s.png" / alt="image"></a>
+     <a href="#"><img src="s1.png" / alt="image"></a>
+     <a href="#"><img src="s2.png" / alt="image"></a>
+     <a href="#"><img src="s3.png" / alt="image"></a>
+     <a href="#"><img src="s4.png" / alt="image"></a>
+  </div>
+</footer>
+
+</body>
+</html>
